@@ -1,0 +1,69 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: #090909;
+        margin:  0;
+        padding: 0;
+        color: #f9f9f9;
+        background-image: url(https://images4.alphacoders.com/136/thumb-1920-1360814.png);
+        background-size:contain;
+
+    }
+
+    p, h2, h3, h4, h5, h6 {
+        text-align: center;
+        color: #f9f9f9;
+    }
+
+.title {
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-style: oblique;
+    color: rgb(153, 0, 255);
+    width: 100%;
+    text-align: center;
+}
+#goals {
+    background-color: #000000;
+    color: #f2f0f0;
+    padding: 50px 0;
+    text-align: center;
+    font-size: 30px;
+    background-color: #6b6b6b;
+    max-width: 4000px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.table {
+    color: rgb(168, 48, 229);
+    background-color: #1e1d1d;
+}
+
+.ul {
+    font-size: 25px;
+    color: rgb(7, 7, 7);
+    max-width: 2000px;
+    border-left: 5px solid #7f21d2;
+    background-color: #faf9f9;
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgb(5, 5, 5);
+}
+
+.ul li {
+    margin-bottom: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #040404;
+    font-style: italic;
+}
