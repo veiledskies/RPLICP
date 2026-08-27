@@ -1,0 +1,27 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    text-align: center;
+    flex-wrap: nowrap;
+}
+
+.navbar a {
+    background-color: #a372c4;
+    border: 2px #ae00ff solid;
+    width: 300px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: rgb(146, 55, 146);
+    border: #a372c4;
+    font-size: larger;
+    text-align: center;
+}

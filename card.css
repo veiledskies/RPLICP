@@ -1,0 +1,52 @@
+.card-container {
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card {
+    background-color: blueviolet;
+    border: 1px; color: rgb(0, 0, 0);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(94, 93, 93);
+    text-align: center;
+}
+
+.card2 {
+    background-color: rgb(197, 27, 27);
+    border: 1px; color: rgb(0, 0, 0);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(94, 93, 93);
+    text-align: center;
+}
+
+.card3 {
+    background-color: rgb(43, 141, 226);
+    border: 1px; color: rgb(0, 0, 0);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(94, 93, 93);
+    text-align: center;
+}
+
+.card:hover {
+    background-color: rgb(120, 60, 162);
+    font-size: larger;
+}
+.card2:hover {
+    background-color: rgb(149, 29, 29);
+    font-size: larger;
+}
+.card3:hover {
+    background-color: rgb(20, 55, 72);
+    font-size: larger;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
